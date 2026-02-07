@@ -7,9 +7,9 @@
 <script>
 var pass = prompt("ادخل كلمة السر:");
 
-if(pass !== "30602141702798"){
-  document.write("كلمة السر غير صحيحة");
-  document.stop();
+if(pass === null || pass !== "30602141702798") {
+  alert("كلمة المرور غير صحيحة");
+  window.location.href = "about:blank";
 }
 </script>
 
@@ -23,4 +23,3 @@ if(pass !== "30602141702798"){
 
 </body>
 </html>
-
